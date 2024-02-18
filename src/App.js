@@ -1,8 +1,13 @@
-import Heading from './Heading';
+import Box from "./Box";
 
 function App() {
-  return ( <Heading text='this is heading'/>
-    
+  const person = {
+    'name': 'venkatesh',
+    'age': 25,
+    'gender': 'male'
+  }
+  return (<Box arr={person} />
+
   );
 }
 
