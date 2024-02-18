@@ -1,3 +1,9 @@
-.color{
-    color:red
+.bg-container{
+    display: flex;
+}
+.each-box{
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
 }

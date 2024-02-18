@@ -1,7 +1,7 @@
-import Heading from './Heading';
+import Flexboxes from './flexboxes';
 
 function App() {
-  return ( <Heading text='this is heading'/>
+  return ( <Flexboxes arr={['venkatesh','praveen','raju']}/>
     
   );
 }
