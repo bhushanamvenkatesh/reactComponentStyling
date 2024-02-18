@@ -1,7 +1,43 @@
-import Heading from './Heading';
+import Boxes from './boxes';
 
 function App() {
-  return ( <Heading text='this is heading'/>
+  let persons=[
+    {
+    'name':'venkatesh',
+    'age':'28',
+    'gender':'male',
+    'city':'hyderabad'
+  },
+  {
+    'name':'rajini',
+    'age':'27',
+    'gender':'male',
+    'city':'rangareddy'
+  },
+
+  {
+    'name':'sai',
+    'age':'30',
+    'gender':'male',
+    'city':'nzb'
+  },
+  {
+    'name':'omkar',
+    'age':'28',
+    'gender':'male',
+    'city':'mdk'
+  },
+  {
+    'name':'balu',
+    'age':'28',
+    'gender':'male',
+    'city':'knr'
+  },
+
+
+
+]
+  return ( <Boxes arr={persons}/>
     
   );
 }
